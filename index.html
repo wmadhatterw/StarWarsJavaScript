@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Star Wars</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div id = "container">
+		<div id = "title"><h1>Star Wars RPG!</h1></div>
+
+		<div id ="choose">
+			<h1>Choose Your Character!</h1>
+		</div>
+		
+
+		<div id = "images">
+			<div id="yoda" class="imgBox test" , "test">
+				<p>Yoda<img src="images/yoda.jpeg" class ="character"><div id= "YH"><p>120</p></div>
+			</div>
+			<div id ="luke" class="imgBox test">
+				<p>Luke Skywalker<img src="images/luke.jpeg" class ="character"><div id= "LH"><p>100</p></div>
+			</div>
+			<div id="anakin" class="imgBox test">
+				<p>Anakin Skywalker<img src="images/anakin.jpg" class ="character"><div id= "AH"><p>150</p></div>
+			</div>
+			<div id ="ren" class="imgBox test">
+				<p>Kylo Ren<img src="images/ren.jpeg" class ="character"><div id= "RH"><p>180</p></div>
+			</div>
+
+		</div>
+
+		<div id="chosenBox">
+		<h2>Your Character</h2>
+		<div id = "chosen"></div>
+		</div>
+
+		<div><h3>Enemies to fight</h3></div>
+
+		<div id="enemies"> 
+		</div>
+
+		<div id ="fight">
+			<h4>Fight Section</h4>
+
+			<div id ="buttons">
+			<button id ="attack">Attack</button>
+			</div>
+
+			<button id ="restart">Restart</button>
+			
+			<h4>Defender:</h4>
+				<div id ="enemy"></div>
+		</div>
+		<div id = "give"><p></p></div>
+		<br> 
+		<div id = "take"><p></p></div>
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+	
+	
+</body>
+</html>
